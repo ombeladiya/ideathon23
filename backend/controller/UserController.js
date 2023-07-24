@@ -14,18 +14,20 @@ exports.RegisterTeam = async (req, res) => {
       }
     }
     let p = await Participant.findOne({ 'email': req.body.email });
+
     if (p) {
       return res.status(200).json({
-        message: "Use another email!!"
+        message: "Invalid Email"
       })
     }
 
     await Participant.create(req.body);
-
+    const teamNo = await Participant.countDocuments();
     res.status(200).json({
-      message: "Team Registred successfully!!"
+      message: `Team Registred successfully!! Your Team ID is: T${teamNo}`
     })
   } catch (err) {
+
     res.status(200).json({
       message: "One Participant cann't participant in more than 1 team"
     })
@@ -40,6 +42,7 @@ exports.getdata = async (req, res) => {
     const csvWriter = createCsvWriter({
       path: 'backend/participants.csv',
       header: [
+        { id: 'Team', title: 'TeamCode' },
         { id: 'problem', title: 'Problem Statement' },
         { id: 'email', title: 'Email' },
         { id: 'name', title: 'Name' },
@@ -58,13 +61,13 @@ exports.getdata = async (req, res) => {
       // Update the participant's joinAt property with the Indian time format
       participant.joinAt = indianTime;
     });
-    const csvData = participants.flatMap((participant) =>
+    const csvData = participants.flatMap((participant, key) =>
       participant.Participants.map((p) => ({
         problem: participant.problem,
         email: participant.email,
         name: p.name,
         idn: p.idn,
-        joinAt: participant.joinAt,
+        Team: `T${(key + 1)}`
       }))
     );
 

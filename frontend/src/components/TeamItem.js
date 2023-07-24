@@ -1,30 +1,60 @@
 import React from "react";
-// import imf from "./WIN_20210905_21_30_20_Pro.jpg";
 
 const TeamItem = () => {
   return (
     <>
     
-      <center style={{minHeight:"65vh"}}>
-        <p>Our Team</p>
-        <div className="w-full my-2 md:w-40 px-2 py-2">
-          <div className="card w-11/12 py-2">
-            <div>
-              <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+      <center style={{ minHeight: "60vh" }}>
+        <p className="mt-3 fw-bold">Our Team</p>
+        <center>
+          <div className="w-full d-flex flex-wrap mt-2 justify-content-center">
+            <div className="w-40 mt-2 px-1">
+              <div className="card w-11/12 py-2">
+                <div>
+                  <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+                </div>
+                <p className="text-xs mt-2">Om beladiya</p>
+                <p className="text-xs text-blue-600">Developer Team</p>
+              </div>
             </div>
-            <p className="text-xs mt-2">Om Patel</p>
-            <p className="text-xs text-blue-600">Developer Team</p>
-          </div>
-        </div>
-        <div className="w-full my-2 md:w-40 px-2 py-2">
-          <div className="card w-11/12 py-2">
-            <div>
-              <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+            <div className="w-40 mt-2 px-1">
+              <div className="card w-11/12 py-2">
+                <div>
+                  <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+                </div>
+                <p className="text-xs mt-2">Om beladiya</p>
+                <p className="text-xs text-blue-600">Developer Team</p>
+              </div>
             </div>
-            <p className="text-xs mt-2">Darshan Patel</p>
-            <p className="text-xs text-blue-600">Developer Team</p>
+            <div className="w-40 mt-2 px-1">
+              <div className="card w-11/12 py-2">
+                <div>
+                  <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+                </div>
+                <p className="text-xs mt-2">Om beladiya</p>
+                <p className="text-xs text-blue-600">Developer Team</p>
+              </div>
+            </div>
+            <div className="w-40 mt-2 px-1">
+              <div className="card w-11/12 py-2">
+                <div>
+                  <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+                </div>
+                <p className="text-xs mt-2">Om beladiya</p>
+                <p className="text-xs text-blue-600">Developer Team</p>
+              </div>
+            </div>
+            <div className="w-40 mt-2 px-1">
+              <div className="card w-11/12 py-2">
+                <div>
+                  <img src="https://res.cloudinary.com/dgynlpjsf/image/upload/v1689273538/products/tgjvxihim1ff2imjhzzd.jpg" className="rounded-full w-20 h-20" alt="yty" />
+                </div>
+                <p className="text-xs mt-2">Om beladiya</p>
+                <p className="text-xs text-blue-600">Developer Team</p>
+              </div>
+            </div>
           </div>
-        </div>
+        </center>
       </center>
     </>
   );

@@ -1,0 +1,99 @@
+{
+    "problems": [
+        {
+            "sr": "P1",
+            "title": "Futuristic Educatiom Model",
+            "description": "In the Indian context, the education system is at a pivotal juncture, with rapid advancements in technology and changing societal needs. The conventional methods of teaching and learning are facing challenges in keeping up with the demands of the future. This ideathon aims to address the pressing issue of 'Futuristic Education in Indian Perspective.' Participants are encouraged to propose innovative solutions that revolutionize the Indian education system, focusing on personalized learning experiences, leveraging emerging technologies such as AI, VR, and AR, promoting digital literacy, improving accessibility to quality education in remote areas, and fostering skill development aligned with future job requirements."
+        },
+        {
+            "sr": "P2",
+            "title": "Designinga a Model, For Time Management and Productivity Tool for Students",
+            "description": "Preparing for the Joint Entrance Examination (JEE) places immense pressure on 12th standard students, often leading to challenges in time management and productivity. Participants are invited to design a specialized model for a digital tool that caters specifically to the needs of JEE aspirants. The model should identify common time management obstacles faced by students during their preparation journey, such as balancing school curriculum, self-study, mock tests, and revision. The goal is to create an intuitive and efficient tool that empowers 12th standard students to manage their time effectively, enhance their productivity, and maintain a healthy study-life balance, ultimately contributing to their success in the competitive JEE examination."
+        },
+        {
+            "sr": "P3",
+            "title": "Smart Parking System for BVM college",
+            "description": "It is an intelligent parking system that assists drivers in finding a parking space. One goal of Smart Parking is to reduce the time taken and the hassle factor of locating an available parking space. Being able to accurately direct a driver to an available space has many environmental benefits; it reduces CO2 emissions, noise and other pollutants. Available spaces should be indicated using a mobile application or digital displays next to roads to navigate drivers to a vacant spot."
+        },
+        {
+            "sr": "P4",
+            "title": "Possibilities of Provision for two wheeler Charging facility on Campus",
+            "description": "Exploring on-campus two-wheeler charging facility to accommodate the growing popularity of electric vehicles. Enabling students, staff, and visitors to charge their electric scooters or bikes conveniently on campus, promoting sustainability and reducing carbon emissions. Evaluating infrastructure, funding, and partnership possibilities to establish a user-friendly and eco-conscious charging network."
+        },
+        {
+            "sr": "P5",
+            "title": "Auto Power cut-off facility in Department Laboratories During Off-College Hours",
+            "description": "Implementing an auto power cut-off system in department laboratories during off-college hours to optimize energy consumption. This system automatically shuts down electrical equipment and lighting, reducing unnecessary energy usage, and promoting sustainability. Cost-effective and environmentally friendly, the initiative contributes to the institution's green practices and energy efficiency efforts."
+        },
+        {
+            "sr": "P6",
+            "title": "Automation of Lab Equipment Utilization register or Equipment Log Table",
+            "description": "Automation of Lab Equipment Utilization Register or Equipment Log Table involves digitizing the record-keeping process for lab equipment usage. This entails creating an electronic database or spreadsheet to monitor and track the usage of laboratory equipment. The system records details such as equipment name, ID, date of usage, user details, purpose, start time, end time, and any relevant notes. This digital approach enhances efficiency, accuracy, and accessibility, streamlining equipment management and facilitating data analysis for better resource allocation."
+        },
+        {
+            "sr": "P7",
+            "title": "Thermoelectric Refrigerator",
+            "description": "The correct answer is Peltier Effect. Thermoelectric coolers operate according to the Peltier effect. The effect creates a temperature difference by transferring heat between two electrical junctions."
+        },
+        {
+            "sr": "P8",
+            "title": "Stair Climbing Trolley",
+            "description": "The mechanism uses a trolley with a support wheel arrangement which will be used for support when at rest and will be suspended in air while the trolley is moved by lifting it. The interlinked wheel mechanism consists of 3 freely moving wheels. These wheels are connected to a connecting rod."
+        },
+        {
+            "sr": "P9",
+            "title": "Floor Cleaning Robot",
+            "description": "The aim of this project work is to develop and modernized process for cleaning the floor with wet and dry and also obstacle detection . Usually robots of this kind can cost more making it an unaffordable choice."
+        },
+        {
+            "sr": "P10",
+            "title": "Reuse of Single Use Plastic",
+            "description": " The usage of single use plastic has not been completely banned yet. Give innovative solutions to reduce pollution."
+        },
+        {
+            "sr": "P11",
+            "title": "Overloaded Garbage Bins",
+            "description": " Effect on health and ecosystems: In the present scenario, we see the garbage bins or Dumpster being overloaded and all the garbage spills out resulting in pollution .The detection, monitoring and management of wastes is one of the major problems of the present era. Overflowing waste causes air pollution and respiratory diseases. Garbage contaminates surface waters which affects the environment."
+        },
+        {
+            "sr": "P12",
+            "title": "Real-time Traffic Management System",
+            "description": "Due to many reasons, the traffic on roads is blocked. Provide real time solutions to manage/minimize the blockage."
+        },
+        {
+            "sr": "P13",
+            "title": "Water Logging in Vallabh Vidyanagar",
+            "description": " The water logging has been observed at many places in Vallabh Vidyanagar. Give short term and long term solution to minimize the problem."
+        },
+        {
+            "sr": "P14",
+            "title": "Digital Agriculture Platforms",
+            "description": "Concepts for creating digital platforms that connect farmers with markets, information, financial services, and agricultural support."
+        },
+        {
+            "sr": "P15",
+            "title": "Advance PA system for sector (Improved projectors and digital notice boards)",
+            "description": "In our class we have rs232 connector to connect it to the projector. RS232 is outdated and faculties face problems in connecting their laptop with projector and which is time consuming. Not only facilities but other outside person coming for seminar also finds it difficult to connect his/her laptop. Paperwork becomes tedious and also has many loopholes like old notices are not updated or removed after the deadline. College websites cannot be accessed without internet connection which can be overcome by this digital notice board. The paper work for summarizing the data of each sector at the end of a semester becomes very difficult and time consuming and requires a lot man power which can be solved by using a digital notice and newsfeed board that will collect the data automatically for the record of the college. Student achievements are not conveyed to every part of the college effectively, this can also be helped with the digital notice board."
+        },
+        {
+            "sr": "P16",
+            "title": "Smart Single Entry System for BVM",
+            "description": " Currently we have multiple gate entries for students, staff and other stakeholders. we want a mechanism to have only single entry system with vehicles that can record the entry and exit of all stakeholders."
+        },
+        {
+            "sr": "P17",
+            "title": "Smart Digital library system",
+            "description": "The main problem is to record the entry and exit of all stakeholders and the books and publication issued and returned by this system."
+        },
+        {
+            "sr": "P18",
+            "title": "Online Hostel Management system",
+            "description": "IHostel seen as a home for students when staying away from their home. It has large well ventilated dormitories and single rooms and is situated in the college premises. Providing clean and calm hostel accommodation is one of the key responsibilities of management. To manage the hostel facilities, a lot of data needs to be maintained such as the number of student hostels can accommodate, hostel rules and regulation, hostel fee, hostel in and out of student, guest and visitor record and so on. So, this needs the system which has an ability to capture all kind of data and information and analyze it properly for smooth functioning of the hostel"
+        },
+        {
+            "sr": "P19",
+            "title": "Smart Institute information display system",
+            "description": "The general notice and information regarding the institute or premises or staff members or exam hall information is sometimes not mentioned or circulated properly. So many times, students or visitors face difficulty locating a place within the premises or finding a particular person’s office and precious time is lost in doing so. A lot of paperwork is also needed to circulate the notice every time an event or seminars are scheduled in educational institutes."
+        }
+    ]
+}

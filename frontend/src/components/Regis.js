@@ -45,23 +45,23 @@ const Regis = () => {
     const config = { headers: { "Content-Type": "application/json" } };
  const {data:{message}}  = await axios.post("/api/v1/register",data,config);
      
- toast.info(message, {
+    toast.info(message, {
         position: 'top-center', 
-        autoClose: 2000, 
+      autoClose: 10000, 
         hideProgressBar: true, 
         closeOnClick: true, 
         pauseOnHover: true,
-        draggable: true,
+      draggable: true,
       });
    
   }
 
   return (
     <>
-      <div style={{minHeight:"65vh"}}>
-      <ToastContainer />
+      <div style={{ minHeight: "65vh" }}>
+        <ToastContainer toastStyle={{ backgroundColor: "black" }} style={{ marginTop: '40vh' }} />
         <div className="alert alert-primary text-xs" role="alert">
-         <b>Note: </b> Number of participants per team should be minimum 6 and maximum 8 and there must be atleast 1 female participant per team otherwise the team will be rejected.
+          <b>Note: </b> Number of participants per team should be minimum 6 and maximum 8 and 1 female participant per team is preferable.
         </div>
         <div className="flex justify-center">
         <form className=" px-0 " onSubmit={(e)=>registerTeam(e)}>
@@ -72,8 +72,8 @@ const Regis = () => {
                   Participant 1(Leader) <span className="text-red-800">*</span>
                 </h5>
               
-              <div className="mt-3 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6"></div>
-              <div className="sm:col-span-3 mt-2">
+                <div className="mt-3 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6"></div>
+                <div className="sm:col-span-3 mt-2">
                 <div
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >

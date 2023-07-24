@@ -3,7 +3,11 @@ import sch from "./shedule.png";
 function Schedule() {
   return (
     <div style={{minHeight:"65vh"}}>
-      <img src={sch} alt="schedule img" />
+      <center>
+        <div>
+          <img src={sch} alt="schedule" />
+        </div>
+      </center> 
     </div>
   )
 }

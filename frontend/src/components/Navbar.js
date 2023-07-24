@@ -1,27 +1,31 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import logo from './ssip.png';
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'Schedule', href: '/Schedule', current: false },
   { name: 'Problem Statements', href: '/Problems', current: false },
   { name: 'Our Team', href: '/Team', current: false },
+  { name: 'Upload PPT', href: '/uploadppt', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Navbar = () => {
+  const navigate = useNavigate();
+  const gotohome = () => {
+    navigate('/');
+  }
   return (
    <>
-    <Disclosure as="nav" className="bg-slate-800">
+      <Disclosure as="nav" className="bg-slate-900" >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-12 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
+                <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -35,7 +39,7 @@ const Navbar = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    
+                      onClick={gotohome}
                     src={logo}
                     alt="Your Company"
                   />

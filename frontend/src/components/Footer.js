@@ -28,13 +28,13 @@ console.log(isAdmin)
   return (
     <>
       <center>
-        <div className='mt-6 bg-slate-800 text-light text-xs h-50 pt-5 '>
+        <div className='mt-6 bg-slate-900 text-light text-xs h-50 pt-5 '>
           <div> <img src={ssip} alt="SSIP" className='h-10 w-20' /></div>
           <div className='mt-3'>&copy; All Rights Reserved SSIP 2.0</div>
           <div className="mt-3 text-xs text-gray-400">This Website is made by SSIP Developer team</div>
 
           <button
-            className="text-slate-800 hover:text-slate-800 py-2 px-4"
+            className="text-slate-800 hover:text-slate-800 pt-2 px-4"
             onClick={openModal}
           >X
           </button>
@@ -46,13 +46,13 @@ console.log(isAdmin)
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white rounded-lg p-8 relative">
               <span
-                className="absolute top-0 right-2 cursor-pointer text-blue-900"
+                className="absolute top-0 right-2 cursor-pointer text-slate-900"
                 onClick={closeModal}
               >X
               </span>
-              <input type="password" name="psw" className='h-7'  placeholder='......' value={password} onChange={(e) => setpassword(e.target.value)} required />
+              <input type="password" name="psw" className='h-7' placeholder='Password' value={password} onChange={(e) => setpassword(e.target.value)} required />
               <br />
-              <button className='mt-3 bg-slate-800 px-4 text-white text-sm py-1' onClick={downloadfile}>Download</button>
+              <button className='mt-3 bg-slate-900 px-4 text-white text-sm py-1' onClick={downloadfile}>Download</button>
             </div>
           </div>
         )}

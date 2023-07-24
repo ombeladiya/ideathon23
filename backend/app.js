@@ -10,7 +10,11 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 app.use(express.urlencoded({ extended: true }));
 
 const User= require("./Routes/Participantsroutes");
-app.use("/api/v1",User);
+app.use("/api/v1", User);
+
+app.get("/getdriveurl", (req, res) => {
+  res.status(200).json({ url: process.env.DRIVE_URL })
+})
 app.use(express.static(path.join(__dirname, "../frontend/build")));
 
 app.get("*", (req, res) => {
