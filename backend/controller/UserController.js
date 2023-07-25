@@ -45,6 +45,7 @@ exports.getdata = async (req, res) => {
         { id: 'Team', title: 'TeamCode' },
         { id: 'problem', title: 'Problem Statement' },
         { id: 'Mobile', title: 'Mobile' },
+        { id: 'Email', title: 'Email' },
         { id: 'name', title: 'Name' },
         { id: 'idn', title: 'ID' },
         { id: 'joinAt', title: 'JoinAt' },
@@ -65,6 +66,7 @@ exports.getdata = async (req, res) => {
       participant.Participants.map((p) => ({
         problem: participant.problem,
         Mobile: participant.mobile,
+        Email: participant.email,
         name: p.name,
         idn: p.idn,
         Team: `T${(key + 1)}`,

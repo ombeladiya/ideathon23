@@ -10,7 +10,10 @@ const ParticipantSchema = new mongoose.Schema({
         type: Number,
         required: true 
     },
-   
+    email: {
+        type: String,
+        required: true
+    },
     Participants:[{
      name:{
         type:String,

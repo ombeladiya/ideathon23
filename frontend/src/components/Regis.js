@@ -6,7 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Regis = () => {
  
-  const [mobile, setemail] = useState('');
+  const [email, setemail] = useState('');
+  const [mobile, setmobile] = useState('');
   const [Participants, setParticipants] = useState([
     { idn: '', name: '' },
     { idn:'', name: '' },
@@ -20,6 +21,9 @@ const Regis = () => {
 
   const Emailchange =(email)=>{
     setemail(email);
+  }
+  const Mobilechange = (m) => {
+    setmobile(m);
   }
 
   const handleInputChange = (index, event) => {
@@ -40,6 +44,7 @@ const Regis = () => {
     const data={
       problem,
       mobile,
+      email,
       Participants:JSON.stringify(Participants)
     }
     const config = { headers: { "Content-Type": "application/json" } };
@@ -125,13 +130,33 @@ const Regis = () => {
                             name="mobile"
                             pattern="[0-9]{10}"
                             value={mobile}
-                          onChange={(e)=>Emailchange(e.target.value)}
+                            onChange={(e) => Mobilechange(e.target.value)}
                           className="block w-full rounded-md border-0 py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             placeholder="XXXXXXXXXX"
                         required/>
                       </div>
                     </div>
                   </div>
+                    <div className="sm:col-span-3 mt-2">
+                      <label
+                        htmlFor="username"
+                        className="block text-sm font-medium leading-6 text-gray-900"
+                      >
+                        Email
+                      </label>
+                      <div className="mt-2">
+                        <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                          <input
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={(e) => Emailchange(e.target.value)}
+                            className="block w-full rounded-md border-0 py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            placeholder="abc@xyz.com"
+                            required />
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
