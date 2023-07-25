@@ -29,7 +29,7 @@ exports.RegisterTeam = async (req, res) => {
   } catch (err) {
 
     res.status(200).json({
-      message: "One Participant cann't participant in more than 1 team"
+      message: err.message
     })
   }
 }
