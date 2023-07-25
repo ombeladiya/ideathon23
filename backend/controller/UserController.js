@@ -6,7 +6,7 @@ exports.RegisterTeam = async (req, res) => {
 
   try {
 
-    if (Process.env.REG) {
+    if (process.env.REG) {
       return res.status(200).json({
         message: "Registartion Proccess Closed!"
       })
