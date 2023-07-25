@@ -13,11 +13,11 @@ exports.RegisterTeam = async (req, res) => {
         req.body.Participants.pop();
       }
     }
-    let p = await Participant.findOne({ 'email': req.body.email });
+    let p = await Participant.findOne({ 'mobile': req.body.mobile });
 
     if (p) {
       return res.status(200).json({
-        message: "Invalid Email"
+        message: "Invalid Mobile"
       })
     }
 
@@ -44,10 +44,10 @@ exports.getdata = async (req, res) => {
       header: [
         { id: 'Team', title: 'TeamCode' },
         { id: 'problem', title: 'Problem Statement' },
-        { id: 'email', title: 'Email' },
+        { id: 'Mobile', title: 'Mobile' },
         { id: 'name', title: 'Name' },
         { id: 'idn', title: 'ID' },
-        { id: 'joinAt', title: 'Join At' },
+        { id: 'joinAt', title: 'JoinAt' },
       ],
     });
 
@@ -64,10 +64,11 @@ exports.getdata = async (req, res) => {
     const csvData = participants.flatMap((participant, key) =>
       participant.Participants.map((p) => ({
         problem: participant.problem,
-        email: participant.email,
+        Mobile: participant.mobile,
         name: p.name,
         idn: p.idn,
-        Team: `T${(key + 1)}`
+        Team: `T${(key + 1)}`,
+        joinAt: participant.joinAt
       }))
     );
 

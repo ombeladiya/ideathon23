@@ -46,7 +46,7 @@
             "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222154/SSIP/graphicshead_qp5uej.jpg"
         },
         {
-            "name": "",
+            "name": "Hitesh Chaudhary",
             "p": "Photography Head",
             "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222145/SSIP/photographyhead_lg1uwc.jpg"
         },
@@ -56,10 +56,16 @@
             "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690224339/SSIP/e_jqc61m.jpg"
         },
         {
+            "name": "Kashyap Joshi",
+            "p": "Startup Ecosystem Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690258169/SSIP/IMG_20230725_093750_ucee3e.jpg"
+        },
+        {
             "name": "Darshan Bhensdadia",
             "p": "Developer Team",
             "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222142/SSIP/devloperhead_yddwnq.jpg"
         },
+        
         {
             "name": "Om Beladiya",
             "p": "Developer Team",

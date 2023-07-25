@@ -16,7 +16,7 @@ function FileData() {
     return (
         <div>
             <div className="alert alert-primary text-xs" role="alert">
-                <b>Note: </b>The file Name of Presentation should be as per Your Team ID such as (T3.pptx)
+                <b>Note: </b>The file Name of Presentation should be as per Your Team ID such as [TeamID][ProblemStatmentID][MobileOfLeader].pptx
             </div>
             <div className="top-0 w-full h-full flex" style={{ minHeight: '65vh' }}>
 

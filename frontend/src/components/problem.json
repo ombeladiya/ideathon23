@@ -57,41 +57,36 @@
         },
         {
             "sr": "P12",
-            "title": "Real-time Traffic Management System",
-            "description": "Due to many reasons, the traffic on roads is blocked. Provide real time solutions to manage/minimize the blockage."
-        },
-        {
-            "sr": "P13",
             "title": "Water Logging in Vallabh Vidyanagar",
             "description": " The water logging has been observed at many places in Vallabh Vidyanagar. Give short term and long term solution to minimize the problem."
         },
         {
-            "sr": "P14",
+            "sr": "P13",
             "title": "Digital Agriculture Platforms",
             "description": "Concepts for creating digital platforms that connect farmers with markets, information, financial services, and agricultural support."
         },
         {
-            "sr": "P15",
+            "sr": "P14",
             "title": "Advance PA system for sector (Improved projectors and digital notice boards)",
             "description": "In our class we have rs232 connector to connect it to the projector. RS232 is outdated and faculties face problems in connecting their laptop with projector and which is time consuming. Not only facilities but other outside person coming for seminar also finds it difficult to connect his/her laptop. Paperwork becomes tedious and also has many loopholes like old notices are not updated or removed after the deadline. College websites cannot be accessed without internet connection which can be overcome by this digital notice board. The paper work for summarizing the data of each sector at the end of a semester becomes very difficult and time consuming and requires a lot man power which can be solved by using a digital notice and newsfeed board that will collect the data automatically for the record of the college. Student achievements are not conveyed to every part of the college effectively, this can also be helped with the digital notice board."
         },
         {
-            "sr": "P16",
+            "sr": "P15",
             "title": "Smart Single Entry System for BVM",
             "description": " Currently we have multiple gate entries for students, staff and other stakeholders. we want a mechanism to have only single entry system with vehicles that can record the entry and exit of all stakeholders."
         },
         {
-            "sr": "P17",
+            "sr": "P16",
             "title": "Smart Digital library system",
             "description": "The main problem is to record the entry and exit of all stakeholders and the books and publication issued and returned by this system."
         },
         {
-            "sr": "P18",
+            "sr": "P17",
             "title": "Online Hostel Management system",
             "description": "IHostel seen as a home for students when staying away from their home. It has large well ventilated dormitories and single rooms and is situated in the college premises. Providing clean and calm hostel accommodation is one of the key responsibilities of management. To manage the hostel facilities, a lot of data needs to be maintained such as the number of student hostels can accommodate, hostel rules and regulation, hostel fee, hostel in and out of student, guest and visitor record and so on. So, this needs the system which has an ability to capture all kind of data and information and analyze it properly for smooth functioning of the hostel"
         },
         {
-            "sr": "P19",
+            "sr": "P18",
             "title": "Smart Institute information display system",
             "description": "The general notice and information regarding the institute or premises or staff members or exam hall information is sometimes not mentioned or circulated properly. So many times, students or visitors face difficulty locating a place within the premises or finding a particular person’s office and precious time is lost in doing so. A lot of paperwork is also needed to circulate the notice every time an event or seminars are scheduled in educational institutes."
         }

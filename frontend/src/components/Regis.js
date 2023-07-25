@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Regis = () => {
  
-  const [email,setemail]=useState('');
+  const [mobile, setemail] = useState('');
   const [Participants, setParticipants] = useState([
     { idn: '', name: '' },
     { idn:'', name: '' },
@@ -39,7 +39,7 @@ const Regis = () => {
     
     const data={
       problem,
-      email,
+      mobile,
       Participants:JSON.stringify(Participants)
     }
     const config = { headers: { "Content-Type": "application/json" } };
@@ -116,17 +116,18 @@ const Regis = () => {
                       htmlFor="username"
                       className="block text-sm font-medium leading-6 text-gray-900"
                     >
-                      Email
+                        Mobile
                     </label>
                     <div className="mt-2">
                       <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
                         <input
-                          type="email"
-                          name="email"
-                          value={email}
+                            type="tel"
+                            name="mobile"
+                            pattern="[0-9]{10}"
+                            value={mobile}
                           onChange={(e)=>Emailchange(e.target.value)}
                           className="block w-full rounded-md border-0 py-1.5 pl-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="abc@xyz.com"
+                            placeholder="XXXXXXXXXX"
                         required/>
                       </div>
                     </div>
