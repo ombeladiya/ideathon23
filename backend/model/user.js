@@ -9,12 +9,12 @@ const ParticipantSchema = new mongoose.Schema({
     mobile: {
         type: Number,
         required: true,
-        unique: true
+        unique: true,
     },
     email: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
     },
     Participants:[{
      name:{
