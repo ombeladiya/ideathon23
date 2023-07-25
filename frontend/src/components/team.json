@@ -1,0 +1,69 @@
+{
+    "team": [
+        {
+            "name": "Dr. Indrajit Patel",
+            "p": "Principal and chairperson",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222145/SSIP/indu_jtk1ja.jpg"
+        },
+        {
+            "name": "Dr. Bhargav Goradiya",
+            "p": "Nodal officer",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222146/SSIP/goradiya_anlnof.jpg"
+        },
+        {
+            "name": "Prof. Ronak Vashi",
+            "p": "Coordinator",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222147/SSIP/ronak_aumlsy.jpg"
+        },
+        {
+            "name": "Prof. Mehul Shah",
+            "p": "Co-Coordinator",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222142/SSIP/mehul_qkldmj.jpg"
+        },
+        {
+            "name": "Dev Padariya",
+            "p": "Entrepeneurship Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222154/SSIP/dev_yam8wj.jpg"
+        },
+        {
+            "name": "Hemangi Rathod",
+            "p": "Public Relation Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222146/SSIP/publicityhead_ew2ijt.jpg"
+        },
+        {
+            "name": "Smit Patel",
+            "p": "Developer Team Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690223589/SSIP/smit_cjehz5.jpg"
+        },
+        {
+            "name": "Shalini Kotecha",
+            "p": "Documentation Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222139/SSIP/documentationhead_s25eyl.jpg"
+        },
+        {
+            "name": "Dhan Prajapati",
+            "p": "Graphics Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222154/SSIP/graphicshead_qp5uej.jpg"
+        },
+        {
+            "name": "",
+            "p": "Photography Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222145/SSIP/photographyhead_lg1uwc.jpg"
+        },
+        {
+            "name": "Amisha Sakhare",
+            "p": "Event Management Head",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690224339/SSIP/e_jqc61m.jpg"
+        },
+        {
+            "name": "Darshan Bhensdadia",
+            "p": "Developer Team",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222142/SSIP/devloperhead_yddwnq.jpg"
+        },
+        {
+            "name": "Om Beladiya",
+            "p": "Developer Team",
+            "url": "https://res.cloudinary.com/dgynlpjsf/image/upload/v1690222287/SSIP/om_pjgyhm.jpg"
+        }
+    ]
+}

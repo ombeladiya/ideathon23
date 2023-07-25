@@ -5,7 +5,7 @@ const Home = () => {
     <div style={{minHeight:"65vh"}}>
       <center>
         <div>
-     <img src={banner} className='w-full' alt="ideathon" />
+          <img src={banner} className='w-full' alt="ideathon" />
         </div>
       </center>
     </div>
