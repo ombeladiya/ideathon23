@@ -5,6 +5,13 @@ const fs= require('fs');
 exports.RegisterTeam = async (req, res) => {
 
   try {
+
+    if (Process.env.REG) {
+      return res.status(200).json({
+        message: "Registartion Proccess Closed!"
+      })
+    }
+
     req.body.Participants = JSON.parse(req.body.Participants);
 
    if (req.body.Participants[7].idn=='' && req.body.Participants[7].name==''){
